@@ -1,0 +1,50 @@
+.bgimage{
+    margin-top: 40px;
+    background-position: center;
+    background-image: url("https://themesflat.co/html/homzen/images/slider/slider-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container {
+  color: #e5e5e5;
+  font-size: 4.26rem;
+  text-transform: uppercase;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height:100px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  
+  height:4.81rem;
+ 
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 13s infinite;
+}
+
+
+@keyframes text-animation {
+  0% {margin-top: -0%;}
+  10% {margin-top: -0%;}
+  20% {margin-top: -21%;}
+  30% {margin-top: -21%;}
+  40% {margin-top: -41%;}
+  60% {margin-top: -41%;}
+  70% {margin-top: -21%;}
+  80% {margin-top: -21%;}
+  90% {margin-top: -0%;}
+  100% {margin-top: -0%;}
+}
